@@ -9,7 +9,7 @@ function addFooter(e) {
   <div class="footer__nav">
     <div class="footer__nav_div">
       <img class="footer__li__img" src="./images/Vector.svg" alt="" />
-      <a href="" class="footer__li__link">Home</a>
+      <a href="https://lukebro82.github.io/componentes_desafio/contacto.html" class="footer__li__link">Home</a>
     </div>
 
     <div class="footer__nav_div">
