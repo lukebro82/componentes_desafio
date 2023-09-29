@@ -18,7 +18,7 @@ function addFooter(e) {
     </div>
 
     <div class="footer__nav_div">
-      <img class="footer__li__img" src="/images/phone.png" alt="" /><a
+      <img class="footer__li__img" src="./images/phone.png" alt="" /><a
         href=""
         class="footer__li__link"
         >Contacto</a

@@ -4,7 +4,7 @@ function addHeader(e) {
   componentEl.className = "header";
 
   componentEl.innerHTML = ` 
-  <a href="/index.html"><img class="header__logo" src="./images/Lukelogo.png" alt="" /></a>
+  <a href="./index.html"><img class="header__logo" src="./images/Lukelogo.png" alt="" /></a>
  
   <ul class="header__nav">
     <li><a href="./portfolio.html" class="nav__link">Portfolio</a></li>
@@ -12,7 +12,7 @@ function addHeader(e) {
     <li><a href="./contacto.html" class="nav__link">Contacto</a></li>
   </ul>
 
-  <img class="header__burguer" src="/images/burguer.png" alt="" />
+  <img class="header__burguer" src="./images/burguer.png" alt="" />
 
   <div class="burger-menu">
     <a href="./portfolio.html" class="burger__link">Portfolio</a>
