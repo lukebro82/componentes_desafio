@@ -4,7 +4,7 @@ function addHeader(e) {
   componentEl.className = "header";
 
   componentEl.innerHTML = ` 
-  <a href="./index.html"><img class="header__logo" src="./images/Lukelogo.png" alt="" /></a>
+  <a href="../index.html"><img class="header__logo" src="./images/Lukelogo.png" alt="" /></a>
  
   <ul class="header__nav">
     <li><a href="./portfolio.html" class="nav__link">Portfolio</a></li>

@@ -29,7 +29,7 @@ function addFooter(e) {
   <div class="footer__socials">
     <img class="footer__socialImages" src="./images/link.svg" alt="" />
     <img class="footer__socialImages" src="./images/github.svg" alt="" />
-    <img class="footer__socialImages" src="./images/x.svg" alt="" />
+    <img class="footer__socialImages" src="./images/x2.svg" alt="" />
   </div>
 
   <div class="footer__copy">©2023 - https://apx.school</div>
