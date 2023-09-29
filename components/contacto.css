@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact-container {
+  background-color: rgba(19, 23, 28, 1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 426px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 180px;
+  }
+}
+
+@media (min-width: 426px) {
+  .contact-nameandemail {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.contact-title {
+  font-family: "Poppins";
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-label {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: white;
+}
+
+.contact-input {
+  display: block;
+  background-color: rgba(57, 62, 70, 0.5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  min-width: 313px;
+  min-height: 59px;
+  padding: 4px 5px 4px 20px;
+  margin-top: 10px;
+}
+
+@media (min-width: 426px) {
+  .contact-input {
+    min-width: 280px;
+  }
+}
+
+.contact-textarea {
+  resize: none;
+  width: 313px;
+}
+
+@media (min-width: 426px) {
+  .contact-textarea {
+    min-width: 580px;
+  }
+}
+
+.contact-input::placeholder {
+  color: rgba(238, 238, 238, 0.5);
+}
+
+.contact-button {
+  background: rgba(0, 173, 181, 1);
+  width: 313px;
+  height: 59px;
+  border-radius: 24px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (min-width: 426px) {
+  .contact-button-div {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
