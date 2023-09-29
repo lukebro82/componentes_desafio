@@ -9,17 +9,17 @@ function addFooter(e) {
   <div class="footer__nav">
     <div class="footer__nav_div">
       <img class="footer__li__img" src="./images/Vector.svg" alt="" />
-      <a href="https://lukebro82.github.io/componentes_desafio/contacto.html" class="footer__li__link">Home</a>
+      <a href="./index.html" class="footer__li__link">Home</a>
     </div>
 
     <div class="footer__nav_div">
       <img class="footer__li__img" src="./images/user.svg" alt="" />
-      <a href="" class="footer__li__link">Servicios</a>
+      <a href="./servicios.html" class="footer__li__link">Servicios</a>
     </div>
 
     <div class="footer__nav_div">
       <img class="footer__li__img" src="./images/phone.png" alt="" /><a
-        href=""
+        href="./contacto.html"
         class="footer__li__link"
         >Contacto</a
       >
