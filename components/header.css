@@ -84,3 +84,12 @@
   text-decoration: none;
   color: white;
 }
+
+.burger-x {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  z-index: 2;
+}
